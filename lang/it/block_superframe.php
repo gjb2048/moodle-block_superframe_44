@@ -15,25 +15,24 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details
+ * Strings for component 'block_superframe', language 'en'
  *
  * @package   block_superframe
- * @copyright  Daniel Neis <danielneis@gmail.com>
- * @copyright  2022 G J Barnard - {@link http://moodle.org/user/profile.php?id=442195}.
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @version    See the value of '$plugin->version' in version.php.
+ * @copyright  &copy; 2021 G J Barnard.
+ * @author     G J Barnard - gjbarnard at gmail dot com and {@link http://moodle.org/user/profile.php?id=442195}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 /**
  * Modified for use in MoodleBites for Developers Level 1
- * by Richard Jones, Justin Hunt and G J Barnard.
+ * by Richard Jones & Justin Hunt.
  *
  * See: https://www.moodlebites.com/mod/page/view.php?id=24546
  */
-defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'block_superframe';
-$plugin->version = 2024062908;
-$plugin->requires = 2024042200.00; // 4.4 (Build: 20240422).
-$plugin->supported = array(404, 404);
-$plugin->release = '404.1.5';
-$plugin->maturity = MATURITY_STABLE;
+// Edit form strings.
+$string['custom'] = 'Costume';
+$string['small'] = 'Piccolo';
+$string['medium'] = 'Medio';
+$string['large'] = 'Grande';
