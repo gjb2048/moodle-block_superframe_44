@@ -1,6 +1,10 @@
 Changes
 =======
 
+V404.1.8
+---------
+1. Widgets!  Ref: https://moodledev.io/docs/guides/templates/#rendering-in-php
+
 V404.1.7
 ---------
 1. End of week 8.
